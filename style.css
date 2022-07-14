@@ -12,13 +12,7 @@ body{background-color: black;}
 
 /* Elements */
 
-    .header p{
-        display: inline;
-        padding: 5px;
-        background-color: #4A4A4A;
-        color: white;
-        border: 1px solid red;
-    }
+   
 
 
 /* ! Header */
@@ -26,18 +20,30 @@ body{background-color: black;}
     .header{
         display: flex;
         justify-content: flex-end;
-        flex-direction: row;
+        align-items: flex-start;
         width: 100%;
-        border: 1px solid red;
-        height: 10vh;
+        height: 80px;
+    }
+
+    .header p{
+        display: inline;
+        padding: 5px;
+        margin: 10px 5px;
+        background-color: #4A4A4A;
+        color: white;
+        border: 1px solid #4A4A4A;
+        border-radius: 2px;
     }
 /* Main Section */
 
     .section{
         width: 90%;
-        height: 80vh;
+        height: calc(100vh - 160px);
         margin: 0 auto;
         border: 1px solid red;
+        overflow: scroll;
+        background-color: #fff;
+        
     }
 
 /* Footer */
@@ -45,5 +51,5 @@ body{background-color: black;}
     .footer{
         width: 100%;
         border: 1px solid red;
-        height: 10vh;  
+        height: 80px;  
     }
