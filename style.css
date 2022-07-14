@@ -74,14 +74,20 @@ img{width: 100%;}
         display: flex;
         margin-top: 30px;
         justify-content: space-between;
+        align-items: center;
         
     }
 
-    .fa-share-from-square{
+    .icona a:hover{
         color: lightgreen;
+        transition: 0.2s;
     }
 
-    .icona a:hover{
-        color: lightslategray;
-        transition: 0.3s;
+    .square p {
+        color: red;
+        background-color: #373737;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
     }
