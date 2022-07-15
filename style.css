@@ -40,7 +40,7 @@ img{width: 100%;}
     .section{
         width: 90%;
         height: calc(100vh - 160px);
-        margin: 0 auto;
+        margin: 10px auto;
         overflow: scroll;
         background-color: #fff;
         display: flex;
@@ -72,11 +72,10 @@ img{width: 100%;}
         height: 80px; 
         background-color: #222222; 
         display: flex;
-        margin-top: 30px;
         justify-content: space-between;
-        align-items: center;
-        
-    }
+        align-items: flex-start;
+        position: fixed;
+        }
 
     .icona a:hover{
         color: lightgreen;
@@ -88,6 +87,6 @@ img{width: 100%;}
         background-color: #373737;
         display: flex;
         justify-content: center;
-        align-items: center;
-        padding: 30px;
+        
+        padding: 20px;
     }
