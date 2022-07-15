@@ -8,13 +8,15 @@ img{height: auto;}
 a{text-decoration: none; color: #fff;}
 hr{border:none; border-bottom: 1px solid #ddd}
 
+/* General */
+
 body{background-color: black;}
 
 img{width: 100%;}
 
-.tac{text-align: center;}
-
 .icona{ color: #fff; text-align: center; display: inline-block; padding: 10px;}
+
+a:hover{color: lightgreen; transition: 0.1s;}
 
 /* ! Header */
 
@@ -77,16 +79,14 @@ img{width: 100%;}
         position: fixed;
         }
 
-    .icona a:hover{
-        color: lightgreen;
-        transition: 0.2s;
-    }
-
     .square p {
         color: red;
         background-color: #373737;
         display: flex;
         justify-content: center;
-        
         padding: 20px;
+    }
+
+    .square p:hover{
+        background-color: #656565;;
     }
